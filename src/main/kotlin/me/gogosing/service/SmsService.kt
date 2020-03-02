@@ -14,7 +14,7 @@ interface SmsService {
 
     /**
      * sms message 전송.
-     * @param mobile 수신자 정보.
+     * @param phoneNumber 수신자 정보.
      * @param message 전송할 message.
      */
     fun sendMessage(phoneNumber: PhoneNumber, message: String)
